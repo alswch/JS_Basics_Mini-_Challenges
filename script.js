@@ -25,4 +25,14 @@ if (chosenNumber < 100){
   console.log(alert_2);
 }
 
+// number 6 I HAVE NO CLUE!!!!
+function listJediNames(JediMaster) {
+  // conole.log("listJediNames");
+  console.log("Jedi Master", JediMaster);
+}
+var jedi = ["Anakin", "Obi-Wan", "Luke"];
+listJediNames(jedi);
+
+// number 7
+
 // number 8
