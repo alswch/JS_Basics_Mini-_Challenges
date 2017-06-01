@@ -42,18 +42,19 @@ newPhone();
 // number 8
 function doorPrize(door) {
   console.log("==doorPrize==");
-  var door1 = "$10"
-  var door2 = "$500"
-  var door3 = "$1,000"
+  var prize;
+  var door1 = "$10";
+  var door2 = "$500";
+  var door3 = "$1,000";
 
   if (door == "door1") {
-    var prize = door1;
+    prize = door1;
   } else if (door == "door2") {
-    var prize = door2;
+    prize = door2;
   } else if (door == "door3") {
-    var prize = door3;
+    prize = door3;
   } else {
-    var prize = "$0";
+    prize = "$0";
   };
   console.log("Your prize is ", prize);
 };
